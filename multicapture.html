@@ -25,87 +25,111 @@
     <p><strong>Element-level window capture</strong>, a <strong>non-destructive editor</strong>, and <strong>screen recording to MP4 or animated GIF</strong> &mdash; all fully portable, with settings and captures kept next to the exe.</p>
     <div class="actions">
       <a class="btn" data-download="MultiCapture" href="https://github.com/dev245g-hash/dev245g-hash.github.io/releases">Download <small></small></a>
-      <a class="btn ghost" href="#versions">Version list</a>
+      <a class="btn ghost" href="#versions">All Version List</a>
     </div>
   </div>
 
   <section>
-    <div class="shot"><img src="https://raw.githubusercontent.com/dev245g-hash/dev245g-hash.github.io/main/images/multicapture/capture_toolbar_tutorial.png" alt="MultiCapture toolbar tutorial"></div>
+    <div class="shot"><img src="images/multicapture/capture_toolbar_tutorial.png" alt="MultiCapture toolbar tutorial"></div>
   </section>
 
-  <section>
+  <section class="group">
+    <header class="sec-head"><span class="ico">🎨</span><div><h2>Eyedropper &amp; Palette</h2><p>Pick any color on screen and keep it.</p></div></header>
     <div class="features">
       <div class="feature">
-        <div><h3>Scroll Capture</h3><p>Stitches a tall page or document into one long PNG automatically.</p></div>
-        <img src="https://github.com/user-attachments/assets/af96a79b-8a1f-4442-b8be-1034de1be7a6" alt="Scroll Capture" width="380" height="207">
+        <div><h3>Eyedropper &amp; Palette</h3><p>Pick any color on screen into the palette, or drag a region to add its average color. Switch any color between RGB and HEX.</p></div>
+        <img src="images/multicapture/eyedropper-palette.gif" alt="Eyedropper &amp; Palette" width="380" height="225" loading="lazy">
       </div>
       <div class="feature">
-        <div><h3>Pin to Screen</h3><p>Turn any capture into an always-on-top floating window with adjustable size and opacity.</p></div>
-        <img src="https://github.com/user-attachments/assets/af96a79b-8a1f-4442-b8be-1034de1be7a6" alt="Pin to Screen" width="380" height="207">
+        <div><h3>Palette Extraction</h3><p>Drag a region and extract its color table at the interval you choose, then add every swatch to your palette in one click.</p></div>
+        <img src="images/multicapture/palette-extraction.gif" alt="Palette Extraction" width="380" height="225" loading="lazy">
       </div>
-      <div class="feature">
-        <div><h3>AniGif</h3><p>Record any part of your screen as an animated GIF, then trim it before saving.</p></div>
-        <img src="https://github.com/user-attachments/assets/af96a79b-8a1f-4442-b8be-1034de1be7a6" alt="AniGif" width="380" height="207">
-      </div>
+      <!-- features:end:eyedropper -->
     </div>
-  </section>
-
-  <section class="group">
-    <h2>📸 Screen Capture</h2>
-    <ul>
-      <li><strong>4 capture modes</strong> - region drag, full screen, active window, per-monitor selection</li>
-      <li><strong>Global PrintScreen hotkey</strong> - intercepted via a low-level keyboard hook (<code>Ctrl+PrintScreen</code> also supported)</li>
-      <li><strong>Capture overlay</strong> - screen freeze effect, instant window/monitor pick on hover, icon-only mode-switch toolbar with hover tooltips</li>
-      <li><strong>Scroll capture</strong> - automatically scrolls and stitches a tall page or document into a single long PNG</li>
-      <li><strong>Pin to Screen</strong> - turn any capture into an always-on-top floating window; resize with the mouse wheel, adjust opacity with Ctrl+wheel or a slider, and collapse it to a small badge with a double-click</li>
-      <li><strong>Full-screen crosshair guides</strong> with a cursor-tracking magnifier (zoom, crosshair, HEX color - pixel-accurate)</li>
-      <li><strong>Clipboard auto-copy</strong> as the default action on capture, with a PNG file saved alongside</li>
-      <li>Polished controls, including <code>Esc</code> to cancel a drag</li>
+    <ul class="points">
+      <li><strong>Screen eyedropper</strong>Pick once or continuously, with a magnifier and HEX readout. The color is copied as <code>#RRGGBB</code>.</li>
+      <li><strong>Persistent palette</strong>A tabbed palette window with drag-to-reorder and per-color locking.</li>
     </ul>
   </section>
 
   <section class="group">
-    <h2>🖼️ History &amp; Image Editor</h2>
-    <ul>
-      <li>Newest-first thumbnail history panel (vertical scroll, top-right X to delete)</li>
-      <li><strong>Lock/protect</strong> any capture to keep it from being deleted by accident</li>
-      <li><strong>Non-destructive annotation editor</strong> - original preserved, edits stored and restored separately</li>
-      <li><strong>Selection tool</strong> - copy a region of the image and paste it elsewhere in the canvas</li>
-      <li>Pen, shapes, mosaic, re-editable text (italic &amp; underline), <strong>number stamps (①–⑮)</strong>, and semi-transparent fill color</li>
-      <li><strong>Curved arrows</strong> - the arrow follows the path you actually dragged instead of snapping to a straight line</li>
-      <li><strong>Style palette</strong> - snapshot stroke color, fill, width, and dash pattern as a swatch, then apply all four in one click</li>
-      <li><strong>Eyedropper &amp; color palette</strong> - pick colors off the screen (single-shot or continuous) into a persistent, tabbed palette window with drag-to-reorder and per-color locking; a <strong>palette extraction</strong> tool reduces a dragged region to a handful of representative swatches</li>
-      <li><strong>Multi-select</strong> (<code>Ctrl+click</code>) and nudge with arrow keys (1px, 10px with Shift), on top of move (including dragging multiple objects at once), resize, copy/paste (<code>Ctrl+C</code> / <code>Ctrl+V</code>), and delete with the same handles</li>
-      <li><strong>Auto-fit zoom</strong> in the edit area, <strong>dark/light theme</strong>, and a settings button at the top of the history window</li>
+    <header class="sec-head"><span class="ico">📸</span><div><h2>Screen Capture</h2><p>One hotkey, every way to grab the screen.</p></div></header>
+    <div class="features">
+      <div class="feature">
+        <div><h3>Region Capture</h3><p>Drag to select any area and capture it exactly, with a live size readout and magnifier. Every capture is kept in the History window.</p></div>
+        <img src="images/multicapture/region-capture.gif" alt="Region Capture" width="380" height="225" loading="lazy">
+      </div>
+      <div class="feature">
+        <div><h3>Scroll Capture</h3><p>Captures a long page or document by scrolling and stitching it into a single seamless PNG automatically.</p></div>
+        <img src="images/multicapture/scroll-capture.gif" alt="Scroll Capture" width="380" height="225" loading="lazy">
+      </div>
+      <div class="feature">
+        <div><h3>Window Capture</h3><p>Hover over any window or UI element to highlight it, then click to capture exactly that element in one shot.</p></div>
+        <img src="images/multicapture/window-capture.gif" alt="Window Capture" width="380" height="225" loading="lazy">
+      </div>
+      <!-- features:end -->
+    </div>
+    <ul class="points">
+      <li><strong>4 capture modes</strong>Region, full screen, active window, or per monitor.</li>
+      <li><strong>Global hotkey</strong><code>PrintScreen</code> or <code>Ctrl+PrintScreen</code>, system-wide.</li>
+      <li><strong>Capture overlay</strong>Frozen screen, hover to pick a window or monitor, crosshair guides with a pixel-accurate magnifier (zoom, HEX), <code>Esc</code> to cancel.</li>
+      <li><strong>Pin to Screen</strong>Float any capture always on top. Wheel to resize, <code>Ctrl</code>+wheel for opacity, double-click to collapse.</li>
+      <li class="wide"><strong>Clipboard auto-copy</strong>Every capture is copied by default, with a PNG saved alongside.</li>
     </ul>
   </section>
 
   <section class="group">
-    <h2>🎥 Screen Recording</h2>
-    <ul>
-      <li><strong>Region recording</strong> - drag out an area and record it to MP4 with no length limit; stop from the floating bar, the tray menu, or your capture hotkey</li>
-      <li><strong>Reposition mid-take</strong> - drag the frame's corner handles and the video pans along, still saved as one file</li>
-      <li><strong>AniGif</strong> - the same flow, but the result is an animated GIF, with a trim window before it saves</li>
-      <li><strong>Dashcam</strong> - an always-on background buffer, so you can save the last few seconds after the moment has passed, with a live start-frame preview and GPU-accelerated export</li>
-      <li><strong>System sound and microphone</strong> in one track, plus optional mouse-cursor compositing</li>
-      <li>Floating control bar with elapsed time and pause/resume, kept out of the recorded area</li>
-      <li>"Open dashcam folder" in the tray menu</li>
+    <header class="sec-head"><span class="ico">🖼️</span><div><h2>History &amp; Editor</h2><p>Every shot is kept, and every edit is reversible.</p></div></header>
+    <ul class="points">
+      <li><strong>Newest-first history</strong>Thumbnail panel. Lock any capture to prevent accidental deletion.</li>
+      <li><strong>Non-destructive editor</strong>The original is preserved; edits are stored and restored separately.</li>
+      <li><strong>Annotation tools</strong>Pen, shapes, mosaic, re-editable text, number stamps (①–⑮), semi-transparent fill.</li>
+      <li><strong>Curved arrows</strong>The arrow follows the path you actually dragged.</li>
+      <li><strong>Style palette</strong>Save stroke, fill, width, and dash as a swatch, then apply all four in one click.</li>
+      <li><strong>Selection tool</strong>Copy a region of the image and paste it elsewhere on the canvas.</li>
+      <li><strong>Multi-select</strong><code>Ctrl+click</code> to select several, nudge with arrow keys (1px, <code>Shift</code> for 10px), then move, resize, copy/paste, or delete together.</li>
+      <li class="wide"><strong>Comfort</strong>Auto-fit zoom, dark/light theme, and a settings button in the history window.</li>
     </ul>
   </section>
 
   <section class="group">
-    <h2>🌐 Other</h2>
-    <ul>
-      <li><strong>Localization</strong> - switch between English and Korean</li>
-      <li><strong>Settings window</strong> - configure save folder, hotkey, default mode, auto-start (Startup-folder shortcut), and dark/light theme with live preview</li>
-      <li><strong>Portable safeguards</strong> - refuses to start from inside a ZIP or a folder it can't write to, so your settings and captures never end up in a temp folder</li>
-      <li>Editor-tool support gate (preview / lock &amp; unlock)</li>
-      <li>Non-focus-stealing toast notifications</li>
+    <header class="sec-head"><span class="ico">🎥</span><div><h2>Screen Recording</h2><p>MP4, animated GIF, or a dashcam that records the past.</p></div></header>
+    <div class="features">
+      <div class="feature">
+        <div><h3>Region Recording</h3><p>Drag out any area and record it to MP4 with no length limit. Pause and resume anytime, and move the frame mid-take while it still saves as one file.</p></div>
+        <img src="images/multicapture/region-recording.gif" alt="Region Recording" width="380" height="225" loading="lazy">
+      </div>
+      <div class="feature">
+        <div><h3>Dashcam</h3><p>Always recording in the background, like a car black box. Missed the moment? Pick how far back to go, preview the start frame, and export just that clip.</p></div>
+        <img src="images/multicapture/dashcam.gif" alt="Dashcam" width="380" height="225" loading="lazy">
+      </div>
+      <div class="feature">
+        <div><h3>AniGif</h3><p>Record any part of your screen straight to an animated GIF. Before it saves, an edit popup lets you trim the length by hand with a live preview.</p></div>
+        <img src="images/multicapture/anigif.gif" alt="AniGif" width="380" height="225" loading="lazy">
+      </div>
+      <!-- features:end:recording -->
+    </div>
+    <ul class="points">
+      <li><strong>Region recording</strong>Record to MP4 with no length limit. Stop from the floating bar, tray menu, or capture hotkey.</li>
+      <li><strong>Reposition mid-take</strong>Drag the frame's corner handles and the video pans along, still saved as one file.</li>
+      <li><strong>Audio &amp; cursor</strong>System sound and microphone in one track, plus optional mouse-cursor compositing.</li>
+      <li><strong>Floating control bar</strong>Elapsed time and pause/resume, kept out of the recorded area.</li>
+    </ul>
+  </section>
+
+  <section class="group">
+    <header class="sec-head"><span class="ico">🌐</span><div><h2>Other</h2><p>Portable by design.</p></div></header>
+    <ul class="points">
+      <li><strong>Localization</strong>Switch between English and Korean.</li>
+      <li><strong>Settings</strong>Save folder, hotkey, default mode, auto-start, and dark/light theme with live preview.</li>
+      <li class="wide"><strong>Portable safeguards</strong>Refuses to start from inside a ZIP or a folder it can't write to, so settings and captures never end up in a temp folder.</li>
+      <li><strong>Editor-tool support gate</strong>Preview / lock &amp; unlock.</li>
+      <li><strong>Quiet notifications</strong>Toasts that never steal focus.</li>
     </ul>
   </section>
 
   <section id="versions">
-    <h2>📦 Version List</h2>
+    <header class="sec-head"><span class="ico">📦</span><div><h2>All Version List</h2><p>Every release, newest first.</p></div></header>
     <div class="table-wrap">
     <table class="versions">
       <thead><tr><th>Version</th><th>What's New</th><th>Download</th></tr></thead>
