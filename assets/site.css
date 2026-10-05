@@ -130,6 +130,7 @@ table.versions { border-collapse: collapse; width: 100%; min-width: 640px; backg
 .group .points li strong { display: block; margin-bottom: 2px; color: var(--text); }
 .group .points li.wide { grid-column: 1 / -1; }
 .group .features + .points { margin-top: 16px; }
+.group > .shot { margin-bottom: 16px; }
 @media (max-width: 760px) {
   .group .points { grid-template-columns: minmax(0, 1fr); }
   .sec-head h2 { font-size: 1.35rem; }
